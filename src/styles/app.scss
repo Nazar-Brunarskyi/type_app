@@ -1,4 +1,8 @@
 .app {
   @include full-screen;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: $main-background-color;
+  color: white;
 }

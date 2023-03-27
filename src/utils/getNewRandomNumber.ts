@@ -1,0 +1,1 @@
+export const getNewRandomNumber = () => Math.floor(Math.random() * 31);

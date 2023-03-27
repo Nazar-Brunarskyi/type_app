@@ -1,0 +1,19 @@
+.cell {
+  position: relative;
+  width: 50%;
+  padding-bottom: 50%;
+  border: 3px solid #000;
+  border-radius: 5px;
+  font-size: 450px;
+
+  &--mistake {
+  border: 3px solid red;
+  }
+
+  &__letter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
