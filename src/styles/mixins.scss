@@ -1,0 +1,11 @@
+@mixin full-screen {
+  max-height: 100vh;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
